@@ -38,27 +38,28 @@ const About = () => {
   return (
     <>
       <motion.div variants={TextVariant(0.4)}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>Introdução</p>
+        <h2 className={styles.sectionHeadText}>Visão geral.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a skilled fullstack developer with experience in Node.js and React,
-        and a passion for learning and problem-solving. I am currently expanding
-        my skillset by studying Java and Spring Boot. I currenly graduating in
-        System Information from PUC Minas and have gained valuable experience
-        working for Onesight, where I utilized my expertise in Node.js, React,
-        and MongoDB to create efficient and user-friendly solutions. I have
-        knowledge in various programming languages and technologies, including
-        JavaScript, TypeScript, MySQL, PostgreSQL, and Spring Boot. As a
-        developer, I believe in collaborating closely with clients to understand
-        their needs and provide them with the best possible solutions. My goal
-        is to use my skills and expertise to bring your ideas to life. Let's
-        work together to create innovative and effective solutions that solve
-        real-world problems.
+        Sou um desenvolvedor fullstack habilidoso com experiência em Node.js e
+        React, e uma paixão por aprender e resolver problemas. Atualmente, estou
+        expandindo meu conjunto de habilidades estudando Java e Spring Boot.
+        Atualmente estou estudando Sistemas de Informação pela PUC Minas e
+        ganhei uma valiosa experiência trabalhando na Onesight, onde utilizei
+        minha expertise em Node.js, React e MongoDB para criar soluções
+        eficientes e amigáveis. Possuo conhecimento em diversas linguagens de
+        programação e tecnologias, incluindo JavaScript, TypeScript, MySQL,
+        PostgreSQL e Spring Boot. Como desenvolvedor, acredito em colaborar de
+        perto com os clientes para entender suas necessidades e fornecer as
+        melhores soluções possíveis. Meu objetivo é usar minhas habilidades e
+        experiência para dar vida às suas ideias. Vamos trabalhar juntos para
+        criar soluções inovadoras e eficazes que resolvam problemas do mundo
+        real.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

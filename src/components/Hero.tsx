@@ -20,10 +20,10 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={clsx(styles.heroHeadText, "text-white")}>
-            Hi, I'm <span className="text-[#915eff]">Luan</span>
+            Olá, Meu nome é <span className="text-[#915eff]">Luan</span>
           </h1>
           <p className={clsx(styles.heroSubText, "mt-2 text-white-100")}>
-            I develop fullstack web aplications
+            Eu sou um desenvolvedor Fullstack
           </p>
         </div>
       </div>

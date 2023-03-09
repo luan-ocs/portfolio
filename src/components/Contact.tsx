@@ -89,7 +89,7 @@ const Contact = () => {
         () => {
           setLoading(false);
 
-          toast("Thank You. I will get back to you as soon as possible.", {
+          toast("Obrigado. Vou entrar em contato o mais cedo possivel.", {
             position: "top-center",
             autoClose: 5000,
             hideProgressBar: false,
@@ -104,7 +104,7 @@ const Contact = () => {
           setLoading(false);
           console.log(error);
 
-          toast("Something went wrong", {
+          toast("Algo deu errado!", {
             position: "top-center",
             autoClose: 5000,
             hideProgressBar: false,
@@ -126,8 +126,8 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 rounded-2xl p-8"
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact</h3>
+        <p className={styles.sectionSubText}>Entre em contato</p>
+        <h3 className={styles.sectionHeadText}>Contato</h3>
 
         <form
           onSubmit={handleSubmit(onSubmit)}
@@ -136,27 +136,27 @@ const Contact = () => {
           <Input
             id="name"
             name="name"
-            placeholder="What's your name?"
+            placeholder="Qual o seu nome?"
             type="text"
-            label="Your name"
+            label="Seu nome"
             registerObj={register("name")}
           />
 
           <Input
             id="email"
             name="email"
-            placeholder="What's your email address?"
+            placeholder="Qual o seu email?"
             type="email"
-            label="Your email address"
+            label="Seu Email"
             registerObj={register("email")}
           />
 
           <Input
             id="message"
             name="message"
-            placeholder="What do you want to say?"
+            placeholder="O que voce quer dizer?"
             type="text"
-            label="Your message"
+            label="Sua Mensagem"
             registerObj={register("message")}
             textarea
             rows={7}
@@ -167,7 +167,7 @@ const Contact = () => {
             type="submit"
             className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
           >
-            {loading ? "Sending..." : "Send"}
+            {loading ? "Enviando..." : "Enviar"}
           </button>
         </form>
       </motion.div>

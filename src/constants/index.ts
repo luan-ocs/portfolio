@@ -129,12 +129,11 @@ const experiences = [
     company_name: "Onesight",
     icon: onesight,
     iconBg: "#383E56",
-    date: "February 2022 - December 2022",
+    date: "Fevereiro 2022 - Dezembro 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Desenvolvendo e mantendo web applications usando React.js, Nodejs e outras tecnologias.",
+      "Implementando design responsivo e garantindo compatibilidade entre navegadores.",
+      "Participar de revisões de código e fornecer feedback construtivo a outros desenvolvedores.",
     ],
   },
 ];
@@ -229,28 +228,28 @@ const springT: Tag = {
 
 const netflixProject = new Project(
   "Netflix Clone",
-  "This is a React project that the user created to enhance their programming skills and test their abilities in React. It's a Netflix interface clone using technologies such as React, Axios, and Styled Components. The project's main objective is to replicate the main functionalities of Netflix's main interface, such as displaying movies and TV shows. By using Axios, the user was able to consume data from TheMoviedb API, while Styled Components made the interface's styling process more organized and straightforward.",
+  "Este é um projeto React que o usuário criou para aprimorar suas habilidades de programação e testar suas habilidades em React. É um clone da interface do Netflix usando tecnologias como React, Axios e Styled Components. O principal objetivo do projeto é replicar as principais funcionalidades da interface principal do Netflix, como exibição de filmes e programas de TV. Ao usar o Axios, o usuário pode consumir dados da API TheMoviedb, enquanto os Styled Components tornam o processo de estilização da interface mais organizado e direto.",
   netflixClone,
   "https://github.com/luan-ocs/netflix-react-clone"
 );
 
 const twitterProject = new Project(
   "Twitter clone",
-  "This is a project that clones the Twitter interface using React, TypeScript, Styled Components, and Atomic Design. Its main goal is to enhance the user's programming skills by replicating the main functionalities of the Twitter interface. The project uses TypeScript to ensure code quality and prevent bugs, while Styled Components make it easier to manage and customize the interface's styling. The Atomic Design methodology allows for a more organized and scalable approach to component creation and management.",
+  "Este é um projeto que clona a interface do Twitter usando React, TypeScript, Styled Components e Atomic Design. Seu principal objetivo é aprimorar as habilidades de programação do usuário, replicando as principais funcionalidades da interface do Twitter. O projeto usa TypeScript para garantir a qualidade do código e evitar bugs, enquanto os Styled Components facilitam o gerenciamento e a personalização do estilo da interface. A metodologia Atomic Design permite uma abordagem mais organizada e escalável para a criação e gerenciamento de componentes.",
   twitterClone,
   "https://github.com/luan-ocs/Twitter-UI-clone"
 );
 
 const igniteLabProject = new Project(
   "Ignite Lab",
-  "This is a project created for my Rocketseat Ignite Lab where I developed a design system for React. The main objective of this project was to create a consistent and scalable design system that could be used in future React applications. The project uses Storybook to document and visualize all the design system's components, and TailwindCSS to speed up the development of styles. The icons used in the project were from the Phosphor Icons library, which offers a wide variety of high-quality icons. Through this project, the user aimed to enhance their React skills and develop a design system that could be used in future projects.",
+  "Este é um projeto criado para o meu Rocketseat Ignite Lab onde desenvolvi um sistema de design para React. O principal objetivo deste projeto era criar um sistema de design consistente e escalável que pudesse ser usado em futuras aplicações React. O projeto usa Storybook para documentar e visualizar todos os componentes do sistema de design e TailwindCSS para acelerar o desenvolvimento de estilos. Os ícones utilizados no projeto foram da biblioteca Phosphor Icons, que oferece uma grande variedade de ícones de alta qualidade. Por meio deste projeto, o usuário pretendia aprimorar suas habilidades em React e desenvolver um sistema de design que pudesse ser usado em projetos futuros.",
   igniteLab,
   "https://github.com/luan-ocs/ignite-lab-design-system"
 );
 
 const springHibernateProject = new Project(
   "Spring Hibernate",
-  "Spring-hibernate is an application created during a Java course on Udemy developed by Professor Nélio Alves. The application aims to create a basic Spring Boot project by implementing the domain model and structuring logical layers such as resources, services, and repositories. Through this project, users can gain a fundamental understanding of Spring Boot and Hibernate and learn how to build a basic Java application using these technologies.",
+  "Spring-hibernate é um aplicativo criado durante um curso de Java na Udemy desenvolvido pelo professor Nélio Alves. O aplicativo visa criar um projeto básico de Spring Boot implementando o modelo de domínio e estruturando camadas lógicas como recursos, serviços e repositórios. Por meio desse projeto, os usuários podem obter uma compreensão fundamental do Spring Boot e do Hibernate e aprender como criar um aplicativo Java básico usando essas tecnologias.",
   springHibernate,
   "https://github.com/luan-ocs/Spring-hibernate"
 );
