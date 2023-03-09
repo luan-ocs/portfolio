@@ -27,6 +27,7 @@ import {
   netflixClone,
   twitterClone,
   igniteLab,
+  springHibernate,
 } from "../assets";
 
 export const navLinks = [
@@ -211,6 +212,21 @@ const tailwindcss: Tag = {
   color: "pink-text-gradient",
 };
 
+const javaT: Tag = {
+  name: "Java",
+  color: "pink-text-gradient",
+};
+
+const h2T: Tag = {
+  name: "H2",
+  color: "green-text-gradient",
+};
+
+const springT: Tag = {
+  name: "Spring Boot",
+  color: "green-text-gradient",
+};
+
 const netflixProject = new Project(
   "Netflix Clone",
   "This is a React project that the user created to enhance their programming skills and test their abilities in React. It's a Netflix interface clone using technologies such as React, Axios, and Styled Components. The project's main objective is to replicate the main functionalities of Netflix's main interface, such as displaying movies and TV shows. By using Axios, the user was able to consume data from TheMoviedb API, while Styled Components made the interface's styling process more organized and straightforward.",
@@ -232,11 +248,24 @@ const igniteLabProject = new Project(
   "https://github.com/luan-ocs/ignite-lab-design-system"
 );
 
+const springHibernateProject = new Project(
+  "Spring Hibernate",
+  "Spring-hibernate is an application created during a Java course on Udemy developed by Professor Nélio Alves. The application aims to create a basic Spring Boot project by implementing the domain model and structuring logical layers such as resources, services, and repositories. Through this project, users can gain a fundamental understanding of Spring Boot and Hibernate and learn how to build a basic Java application using these technologies.",
+  springHibernate,
+  "https://github.com/luan-ocs/Spring-hibernate"
+);
+
 netflixProject.addTags([react, axios, styledComponent]);
 twitterProject.addTags([react, typescriptT, styledComponent]);
 igniteLabProject.addTags([react, typescriptT, tailwindcss, storybook]);
+springHibernateProject.addTags([javaT, springT, h2T]);
 
-const projectsNotMapped = [netflixProject, twitterProject, igniteLabProject];
+const projectsNotMapped = [
+  netflixProject,
+  twitterProject,
+  igniteLabProject,
+  springHibernateProject,
+];
 
 const projects = projectsNotMapped.map((project) => project.getData());
 
